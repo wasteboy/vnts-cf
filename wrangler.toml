@@ -22,7 +22,7 @@ GATEWAY_NAME = "CF测试服务器"
 SERVER_ENCRYPT = "false"
   
 # 是否禁用中继转发： 0 允许中继  1 仅P2P
-DISABLE_RELAY = "1"
+DISABLE_RELAY = "0"
 
 # 心跳检查间隔时间，检查客户端已经断开的连接进行清理(频率较高)单位：秒
 HEARTBEAT_INTERVAL = "120"
@@ -40,7 +40,7 @@ CACHE_SAVE_INTERVAL = "3600"
 LOG_LEVEL = "info"
 
 # 日志存储密码，不为空时启用日志存储功能 /log ，开启后会消耗durable_objects免费额度，谨慎开启  
-LOG_PASSWORD = ""
+LOG_PASSWORD = "password"
 
 # Durable Object 地理位置提示，优化延迟（apac=亚太 weur=西欧 enam=北美东部 wnam=北美西部等）
 LOCATION_HINT = "apac"
